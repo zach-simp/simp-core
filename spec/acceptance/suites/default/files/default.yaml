@@ -15,6 +15,7 @@ simp_options::logrotate: true
 simp_options::ntpd::servers: ['time.nist.gov']
 simp_options::package_ensure: installed
 simp_options::pam: true
+simp_options::oath: false
 simp_options::pki: true
 simp_options::pki::source: '/etc/pki/simp-testing/pki'
 simp_options::stunnel: true
